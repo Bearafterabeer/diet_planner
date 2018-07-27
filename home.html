@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Diet planner</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/mustache.min.js"></script>
+		<script id="dietPlanTemplate" type="x-tmpl-mustache">
+		{{#dietPlanData}}
+			<h3> {{ title }} </h3>
+			<p> {{ description }} </p>
+			<a href= "{{ url }}" > &raquo; choose</a>
+		{{/dietPlanData}}
+
+		</script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+	<body>
+
+		<h1>Diet planner</h1>
+		<p>Inter satus porrexerat metusque. Quicquam nova subsidere terrarum. Illas rudis nix. Altae poena sinistra. Quia turba. Umentia limitibus supplex peregrinum emicuit circumdare feras! Melioris est alta nulli locis fratrum praebebat. Caelo metusque terra norant.</p>
+		<H2>Choose your diet plan</H2>
+		<hr>
+		<div id="dietPlanList">
+
+		</div>
+		<a href="index.html"><button type="button" name="button">Home</button></a>
+
+	</body>
+</html>
