@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css\bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" href="css\mealsselection.css">
   <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Meal Selection</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
       <div class="alert alert-danger d-none" role="alert" id="generalFormError">
         Form has errors. Check your selection.
       </div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h4 class="card-title">Breakfast</h4>
             <p>Choose your meal</p>
@@ -26,7 +27,7 @@
           </fieldset>
         </div>
       </div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h4 class="card-title">Lunch</h4>
             <p>Choose your meal</p>
@@ -34,7 +35,7 @@
           </fieldset>
         </div>
       </div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h4 class="card-title">Dinner</h4>
             <p>Choose your meal</p>
@@ -42,7 +43,7 @@
           </fieldset>
         </div>
       </div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h4 class="card-title">Snack</h4>
             <p>Choose your meal</p>
@@ -68,7 +69,7 @@
   <script type="text/javascript" src="js/db.js"></script>
   <script type="text/javascript" src="js/mealsselection.js"></script>
   <script type="x-tpl-mustache" id="dietInfoTemplate">
-  <div class="card shadow-lg my-4 card-green">
+  <div class="card shadow-lg my-4 card-green animated fadeIn">
     <div class="imageContainer" style="background-image: url({{image}})"></div>
     <div class="card-body">
       <h2 class="card-title">{{name}}</h2>

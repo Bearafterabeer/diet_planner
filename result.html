@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css\bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" href="css\result.css">
   <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Your Diet</title>
 </head>
 <body>
@@ -14,13 +15,13 @@
   <div class="container  container-sm my-4">
       <h1 class="text-center mb-4">Your personalised Diet</h1>
       <div id="dietInfo"></div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h2 class="card-title">Your meals selection</h2>
           <div id="mealsInfo"></div>
         </div>
       </div>
-      <div class="card shadow-lg my-4 card-green">
+      <div class="card shadow-lg my-4 card-green animated slideInUp">
         <div class="card-body">
           <h2 class="card-title">Exercises</h2>
           <div id="exercisesInfo"></div>
@@ -41,7 +42,7 @@
   <script type="text/javascript" src="js/db.js"></script>
   <script type="text/javascript" src="js/result.js"></script>
   <script type="x-tpl-mustache" id="dietInfoTemplate">
-    <div class="card shadow-lg my-4 card-green">
+    <div class="card shadow-lg my-4 card-green animated fadeIn">
       <div class="imageContainer" style="background-image: url({{image}})"></div>
       <div class="card-body">
         <h2 class="card-title">{{name}}</h2>
