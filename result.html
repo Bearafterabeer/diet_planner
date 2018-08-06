@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css\bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\result.css">
+  <link rel="stylesheet" href="css\styles.css">
+  <title>Your Diet</title>
+</head>
+<body>
+
+  <div class="container  container-sm my-4">
+      <h1 class="text-center mb-4">Your personalised Diet</h1>
+      <div id="dietInfo"></div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h2 class="card-title">Your meals selection</h2>
+          <div id="mealsInfo"></div>
+        </div>
+      </div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h2 class="card-title">Exercises</h2>
+          <div id="exercisesInfo"></div>
+        </div>
+      </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="text-center"> Vasilatos Daniel &trade; 2018</div>
+    </div>
+  </footer>
+
+  <script src="js\jquery.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/mustache.min.js"></script>
+  <script type="text/javascript" src="js/jsstore.min.js"></script>
+  <script type="text/javascript" src="js/db.js"></script>
+  <script type="text/javascript" src="js/result.js"></script>
+  <script type="x-tpl-mustache" id="dietInfoTemplate">
+    <div class="card shadow-lg my-4 card-green">
+      <div class="imageContainer" style="background-image: url({{image}})"></div>
+      <div class="card-body">
+        <h2 class="card-title">{{name}}</h2>
+          {{description}}
+          <hr>
+          <a href="mealsselection.html" class="btn btn-outline-success">Choose different meals</a>
+      </div>
+    </div>
+  </script>
+  <script type="x-tpl-mustache" id="mealsInfoTemplate">
+    <h6>Breakfast</h6>
+    <h5>{{breakfast.name}}</h5>
+    {{breakfast.teaser}}
+    <hr>
+    <h6>Lunch</h6>
+    <h5>{{lunch.name}}</h5>
+    {{lunch.teaser}}
+    <hr>
+    <h6>Dinner</h6>
+    <h5>{{dinner.name}}</h5>
+    {{dinner.teaser}}
+    <hr>
+    <h6>Snack</h6>
+    <h5>{{snack.name}}</h5>
+    {{snack.teaser}}
+  </script>
+</body>
+</html>

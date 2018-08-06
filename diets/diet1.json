@@ -1,0 +1,142 @@
+{
+  "name": "Slim'n'buffed Diet",
+  "description": "Eliminarea tesutului adipos/masa musculara/definire",
+  "teaser": "text here and here and here and here",
+  "exercises": "some exercise",
+  "image": "pictures/Homepage.jpg",
+  "meals": [
+    {
+      "type": "breakfast",
+      "options":[
+        {
+          "name": "Mic dejun (tartine cu branza) ora 8:00",
+          "teaser": "2 felii de paine integrala , 200g branza slaba (raraul), marar, ceapa, masline",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (ardei umplut cu branza) ora 8:00",
+          "teaser": "2 ardei grasi umpluti cu 200g branza de vaci slaba (raraul) se amesteca cu marar si putina sare si 2 felii de paine integral",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (salata de fructe cu iaurt grecesc) ora 8:00",
+          "teaser": "½ banana, 1 kiwi, o portocala mica, 20g fructe de padure, 1 iaurt grecesc, 3 rondele grau integral",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (branza cu iaurt grecesc) ora 8:00",
+          "teaser": "150g branza slaba de vaci, 50g iaurt grecesc, 50g branza slaba telemea de vaca, 1 rosie, masline, 2 felii de paine integral",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (omleta cu legume) ora 8:00",
+          "teaser": "3 albusuri, 1 galbenus, legume(ardei gras, rosii, masline), 50g branza slaba telemea de vaca, 2 felii de paine integral",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (rondele expandate(sanovita) de grau integral) ora 9:00",
+          "teaser": "3 rondele de grau, 20g unt de arahide natural, ½ banana",
+          "description": "some description"
+        }, {
+          "name": "Mic dejun (cereale cu lapte) ora 9:00",
+          "teaser": "30g fulgi de ovaz integrali (lasati in lapte 2 ore sa se hidrateze), 20g mix seminte crude, o lingurita miere, ½ banana, 100g lapte",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "lunch",
+      "options":[
+        {
+          "name": "Masa 2 (omleta cu legume) ora 12:00",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (vita cu brocoli si paste) ora 12:00",
+          "teaser": "30g paste integrale, 200g vita la gratar, 100g brocoli fiert",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (dorada la cuptor cu cartofi si legume) ora 12:00",
+          "teaser": "100g cartofi fierti, 150g dorada la gratar, ciuperci, ardei gras, rosii cherry, morcov",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (Ton cu porumb si ou) ora 12:00",
+          "teaser": "o conserva de ton in suc propriu, 1 ou fiert, 10g porumb, rosii cherry, rucola, ardei gras, ceapa verde, dressing din iaurt 0.1% grasime si 2 felii de paine integral",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (piept de rata cu cartofi natur) ora 12:00",
+          "teaser": "200g piept de rata la gratar, 100g cartofi natur (se pot pisa,adauga iaurt grecesc si sare)",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (curcan cu orez sarbesc) ora 14:00",
+          "teaser": "30g orez integral, 200g piept de curcan fiert, ardei gras, ceapa, 20g mazare, morcov, ciuperci (legumele se calesc in apa)",
+          "description": "some description"
+        }, {
+          "name": "Masa 2 (paste integrale cu branza) ora 14:00",
+          "teaser": "30g paste integrale, 200g branza de vaci slaba, sare",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "dinner",
+      "options":[
+        {
+          "name": "Masa 3 (piept de curcan cu orez) ora 16:00",
+          "teaser": "200g piept de curcan la gratar, 30g orez integral, sos soia pentru gust",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 ( somon cu legume ) ora 16:00",
+          "teaser": "150g somon la gratar, 200g mix de legume fierte si 30g orez integral",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 (piept de curcan cu orez) ora 16:00",
+          "teaser": "200g piept de curcan, 30g orez integral, sos soia ",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 (orez cu creveti) ora 16:00",
+          "teaser": "200g creveti fierti, 30g orez integral",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 (somon cu legume in sos de portocala) ora 16:00",
+          "teaser": "150g somon la tava, 1 cartof mediu-mic, 50g legume (se pun toate in tava si se pune cam un cm de suc natural de portocale in care se pregatesc preparatele)",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 (muschi de vita la cuptor cu cartofi natur) ora 18:00",
+          "teaser": "200g muschi de vita la cuptor (cimbru, chimen, sare, piper), 150g cartofi natur (se pot pisa si se adauga iaurt grecesc si sare)",
+          "description": "some description"
+        }, {
+          "name": "Masa 3 (supa de vita cu legume) ora 18:00",
+          "teaser": "200g muschi de vita, 30g taitei integrali, morcov, mazare, ceapa",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "snack",
+      "options":[
+        {
+          "name": "Masa 4 (vita cu legume) ora 21:00 (DUPA SALA – VALABIL ZILNIC)",
+          "teaser": "200g vita la cuptor, 200g mix de legume la cuptor",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (urda cu masline si salata) ora 21:00",
+          "teaser": "200g urda slaba, 20g masline, salata (ardei, castraveti, salata)",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (pastrav la gratar cu legume) ora 21:00",
+          "teaser": "200g pastrav la gratar, 200g mix de legume",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (branza de vaci cu masline nesarate) ora 21:00",
+          "teaser": "100g branza de vaci slaba (raraul), 50g iaurt grecesc, 50g masline nesarate",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (urda slaba cu masline) ora 21:00",
+          "teaser": "200g urda slaba, 50g masline, 1 rosie",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (tartine cu branza) ora 22:00",
+          "teaser": "2 felii de paine integral, 150g branza slaba (raraul), marar, ceapa, masline",
+          "description": "some description"
+        }, {
+          "name": "Masa 4 (ton cu porumb) ora 22:00",
+          "teaser": "200g ton in suc propriu, 50g porumb",
+          "description": "some description"
+        }
+      ]
+    }
+  ]
+}

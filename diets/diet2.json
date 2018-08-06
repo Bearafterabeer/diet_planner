@@ -1,0 +1,78 @@
+{
+  "name": "diet plan doi",
+  "description": "some description",
+  "teaser": "text here",
+  "exercises": "some exercise",
+  "image": "pictures/homepage2.jpg",
+  "meals": [
+    {
+      "type": "breakfast",
+      "options":[
+        {
+          "name": "breakfast option 1",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "breakfast option 2",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "breakfast option 3",
+          "teaser": "text here",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "lunch",
+      "options":[
+        {
+          "name": "lunch option 1",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "lunch option 2",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "lunch option 3",
+          "teaser": "text here",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "dinner",
+      "options":[
+        {
+          "name": "dinner option 1",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "dinner option 2",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "dinner option 3",
+          "teaser": "text here",
+          "description": "some description"
+        }
+      ]
+    },{
+      "type": "snack",
+      "options":[
+        {
+          "name": "snack option 1",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "snack option 2",
+          "teaser": "text here",
+          "description": "some description"
+        }, {
+          "name": "snack option 3",
+          "teaser": "text here",
+          "description": "some description"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css\bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\mealsselection.css">
+  <link rel="stylesheet" href="css\styles.css">
+  <title>Meal Selection</title>
+</head>
+<body>
+<div class="container container-sm">
+  <div id="dietInfo"></div>
+
+  <form class="" action="#" method="post" id="mealsForm">
+    <h1 class="text-center">Choose your meals</h1>
+      <div class="alert alert-danger d-none" role="alert" id="generalFormError">
+        Form has errors. Check your selection.
+      </div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h4 class="card-title">Breakfast</h4>
+            <p>Choose your meal</p>
+          <fieldset id="breakfastMeals">
+          </fieldset>
+        </div>
+      </div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h4 class="card-title">Lunch</h4>
+            <p>Choose your meal</p>
+          <fieldset id="lunchMeals">
+          </fieldset>
+        </div>
+      </div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h4 class="card-title">Dinner</h4>
+            <p>Choose your meal</p>
+          <fieldset id="dinnerMeals">
+          </fieldset>
+        </div>
+      </div>
+      <div class="card shadow-lg my-4 card-green">
+        <div class="card-body">
+          <h4 class="card-title">Snack</h4>
+            <p>Choose your meal</p>
+          <fieldset id="snackMeals">
+          </fieldset>
+        </div>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="text-center"> Vasilatos Daniel &trade; 2018</div>
+  </div>
+</footer>
+
+
+  <script src="js\jquery.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/mustache.min.js"></script>
+  <script type="text/javascript" src="js/jsstore.min.js"></script>
+  <script type="text/javascript" src="js/db.js"></script>
+  <script type="text/javascript" src="js/mealsselection.js"></script>
+  <script type="x-tpl-mustache" id="dietInfoTemplate">
+  <div class="card shadow-lg my-4 card-green">
+    <div class="imageContainer" style="background-image: url({{image}})"></div>
+    <div class="card-body">
+      <h2 class="card-title">{{name}}</h2>
+        {{description}}
+        <hr>
+        <a href="dietselection.html" class="btn btn-outline-success">Choose different diet</a>
+    </div>
+  </div>
+  </script>
+  <script type="x-tpl-mustache" id="mealOptionsTemplate">
+  {{#options}}
+  <div class="form-check">
+          <input class="form-check-input" type="radio" name="{{type}}" id="meal{{id}}" value="{{id}}"{{#checked}} checked {{/checked}}>
+          <label class="form-check-label" for="meal{{id}}">
+            {{name}}
+          </label>
+          <div class="text-muted">{{teaser}}</div>
+        </div>
+  {{/options}}
+  <div class="text-danger d-none mealError">Please choose an option</div>
+  </script>
+</body>
+</html>
