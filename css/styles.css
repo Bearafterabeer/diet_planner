@@ -2,3 +2,64 @@
 	color: red;
 	display: none;
 }
+
+.imageContainer {
+	padding-top: 56.25%;
+	height: 0;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.container-sm {
+	max-width: 768px;
+}
+
+.card {
+	width: 100%;
+}
+
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+	background-color: #FBFBFF;
+	background-image: url(../pictures/background.jpg);
+	background-position: 50% 0;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: 60px;
+}
+
+h1 {
+	color: #FBFBFF;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-green {
+	color: #FBFBFF;
+	background-color: #20BF55;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-green .btn {
+	background-color: #fff;
+}
+
+.card-green .btn:hover {
+	background-color: #1A9944;
+}
+
+.card-green .text-muted {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.footer {
+	color: #FBFBFF;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
