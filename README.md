@@ -1,1 +1,1 @@
-# diet_planner
+[Demo](https://bearafterabeer.github.io/diet_planner/)
