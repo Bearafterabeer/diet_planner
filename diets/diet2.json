@@ -7,6 +7,7 @@
   "meals": [
     {
       "type": "breakfast",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "breakfast option 1",
@@ -24,6 +25,7 @@
       ]
     },{
       "type": "lunch",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "lunch option 1",
@@ -41,6 +43,7 @@
       ]
     },{
       "type": "dinner",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "dinner option 1",
@@ -58,6 +61,7 @@
       ]
     },{
       "type": "snack",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "snack option 1",

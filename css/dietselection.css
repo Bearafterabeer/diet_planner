@@ -27,9 +27,19 @@
   display: flex;
 }
 
+.dietOption {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+}
+.dietOption:hover {
+  text-decoration: none;
+}
+.dietOption:hover .card {
+  transform: scale(1.1);
+	background-color: #178C3E;
+}
+
 .card {
   transition: all .2s linear;
-}
-.card:hover {
-  transform: scale(1.1)
 }

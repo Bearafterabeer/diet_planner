@@ -43,19 +43,20 @@
   <script type="text/javascript" src="js/dietselection.js"></script>
   <script type="x-tpl-mustache" id="dietOptionTemplate">
   {{#diets}}
-    <div class="col-md-4 animated fadeIn">
-      <div class="card mb-4 shadow-lg card-green">
-      <div class="imageContainer" style="background-image: url({{image}})"></div>
-        <div class="card-body">
-        <h4 class="card-title">{{name}}</h4>
-          <p>{{teaser}}</p>
-          <label>
-          <button type="button" class="btn btn-outline-success" data-id="1">Get started</button>
-          <input type="radio" name="diet" value="{{ id }}" class="d-none">
-        </label>
-        </div>
+      <div class="col-md-4 animated fadeIn">
+        <a href="#" class="dietOption">
+          <div class="card mb-4 shadow-lg card-green">
+          <div class="imageContainer" style="background-image: url({{image}})"></div>
+            <div class="card-body">
+            <h4 class="card-title">{{name}}</h4>
+              <p>{{teaser}}</p>
+              <label>
+              <input type="radio" name="diet" value="{{ id }}" class="d-none">
+            </label>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
     {{/diets}}
   </script>
 </body>

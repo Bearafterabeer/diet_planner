@@ -2,11 +2,12 @@
   "name": "Slim'n'buffed Diet",
   "description": "Eliminarea tesutului adipos/masa musculara/definire",
   "teaser": "text here and here and here and here",
-  "exercises": "some exercise",
+  "exercises": "<p><strong>Ziua 1: Cardio HIIT (high intensity interval training) durata aproximativ 40 min.<\/strong><br \/>- pe bicicleta faci 3 minute incalzire si dupa aceea interval de cate un minut dupa cum<br \/>urmeaza: 1 minut (dupa incalzirea de 3 minute) dai tot ce poti tu (pedalezi cat poti de tare<br \/>si maresti intensitatea cu 1-2 grade). Dupa acest minut reduci intensitatea la normal si<br \/>pedalezi in continuare dar te odihnesti pana nu mai gafai (1 min &ndash; 1 min jumate)<br \/>- repeti intervale de 15 ori (15 runde de cate un minut cat de tare poti cu 15 runde de odihna)<\/p>\r\n<p><strong>Ziua 2: Partea superioara (circuit)<\/strong><br \/>Piept:<br \/>- impins culcat cu bara: 3x12 rep (daca depasesti 12 rep maresti cu 10% greutatea)<br \/>- impins cu capul in jos cu bara: 3x12 rep (daca depasesti 12 rep maresti cu 10% greutatea)<br \/>- impins inclinat cu ganterele: 3x12 rep<br \/>- fluturari cu ganterele din semi &ndash; inclinat: 3x12 rep (banca pusa la prima gaura)<br \/>Umeri:<br \/>- ridicari in fata cu gantera alternativ pe fiecare mana din picioare: 3x12 rep<br \/>- impins cu bara la ceafa: 3x12 rep<br \/>Spate:<br \/>- tractiuni la helcometru la piept: 3x12 rep<br \/>- ramat cu bara din picioare: 3x12 rep<br \/>- ramat la aparat: 3x12 rep<br \/>Triceps:<br \/>- extensii cu bara la cabluri: 4x12 rep<br \/>- extensii cu bara\/gantera la ceafa: 4x12 rep<br \/>Biceps:<br \/>- flexii cu ganterele alternativ (din picioare): 4x12 rep<br \/>- flexii cu bara z: 4x12 rep<\/p>\r\n<p><strong>Ziua 3: Cardio &ndash; Steady pace &ndash; mers pe banda inclinata<\/strong><br \/>- pe banda inclinata la 9 grade se porneste cu o viteza de 5 km\/h si treptat la fiecare 10 minute<br \/>cresti inclinatia cu cate 0.5 grade.<br \/>- dupa 20 min maresti viteza la 6 si dupa alte 20 min maresti viteza la 7<br \/>- timp total 70 min fara pauza. NU te tine cu mainile de manerul aparatului<\/p>\r\n<p><strong>Ziua 4: Picioare + Abdomen<\/strong><br \/>Picioare:<br \/>- genoflexiuni cu bara in spate: 3x12 rep<br \/>- fandari cu ganterele in maini: 3x12 rep<br \/>- genoflexiuni SUMO: 3x12 rep<br \/>- extensii la aparat: 3x12 rep<br \/>- gambe la apparat: 3x12 rep<br \/>Abdomen:<br \/>- ridicari de picioare din atarnat: 4x20 rep (daca nu se pot efectua din atarnat, la aparatul<br \/>unde iti tii coatele sprijinite)<br \/>- banca inclinata la 45 grade: 4x20 rep<br \/>- banca dreapta Crunches: 4x20 rep<\/p>\r\n<p><strong>Ziua 5: Cardio HIIT (high intensity interval training) durata aproximativ 40 min.<\/strong><br \/>- pe bicicleta faci 3 minute incalzire si dupa aceea interval de cate un minut dupa cum<br \/>urmeaza: 1 minut (dupa incalzirea de 3 minute) dai tot ce poti tu (pedalezi cat poti de tare<br \/>si maresti intensitatea cu 1-2 grade). Dupa acest minut reduci intensitatea la normal si<br \/>pedalezi in continuare dar te odihnesti pana nu mai gafai (1 min &ndash; 1 min jumate)<br \/>- repeti intervale de 15 ori (15 runde de cate un minut cat de tare poti cu 15 runde de odihna)<\/p>\r\n<p><strong>SUPLIMENTE RECOMANDATE: <\/strong><\/p>\r\n<p>Optional:<br \/>- complex de vitamine ( dimineata)<br \/>- Acetil L-carnitine + CLA (30 min inainte de antrenament)<br \/>- Aminoacizi sau BCAA (30 min inainte de antrenament)<br \/>- Proteina: Ultra Whey de la Muscle Line &ndash; imediat dupa antrenament<\/p>",
   "image": "pictures/Homepage.jpg",
   "meals": [
     {
       "type": "breakfast",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "Mic dejun (tartine cu branza) ora 8:00",
@@ -40,6 +41,7 @@
       ]
     },{
       "type": "lunch",
+      "image": "pictures/homepage3.jpg",
       "options":[
         {
           "name": "Masa 2 (omleta cu legume) ora 12:00",
@@ -73,6 +75,7 @@
       ]
     },{
       "type": "dinner",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "Masa 3 (piept de curcan cu orez) ora 16:00",
@@ -106,6 +109,7 @@
       ]
     },{
       "type": "snack",
+      "image": "pictures/homepage2.jpg",
       "options":[
         {
           "name": "Masa 4 (vita cu legume) ora 21:00 (DUPA SALA – VALABIL ZILNIC)",

@@ -25,19 +25,23 @@ function initStore(diets) {
   var mealId = 1;
   for (var i = 0; i < diets.length; i++) {
     var diet = diets[i];
-    // add diet information
-    dietsValues.push({
+    // store diet value
+    var dietValue = {
       id: dietId,
       name: diet.name,
       description: diet.description,
       teaser: diet.teaser,
       exercises: diet.exercises,
       image: diet.image
-    });
+    };
     // walk through meals
     for (var j = 0; j < diet.meals.length; j++) {
+      //current meal type
       var mealType = diet.meals[j].type;
+      // meal type options
       var mealOptions = diet.meals[j].options;
+      //add image for meal type to diet table
+      dietValue[mealType+'image'] = diet.meals[j].image;
       // walk through meal options
       for (var k = 0; k < mealOptions.length; k++) {
         var option = mealOptions[k];
@@ -53,6 +57,8 @@ function initStore(diets) {
         mealId++;
       }
     }
+    // add diet information
+    dietsValues.push(dietValue);
     dietId++;
   }
   // insert diets information into diets table
@@ -102,26 +108,28 @@ function renderDiets() {
   // handle click on diet button
   $('#dietPlanForm')
     .removeClass('d-none')
-    .on('click', 'button', function(ev) {
+    .on('click', 'a', function(ev) {
       // get diet Id from input value
       var dietId = parseInt($(this).parent().find('input').prop('checked', true).val());
       // remove any previous selections
       connection.remove({
         from: 'Selection'
+      }).then(function(){
+        // store the new selection
+        connection.insert({
+          into: 'Selection',
+          values: [{
+            dietId: dietId,
+            breakfastId: 0,
+            lunchId: 0,
+            dinnerId: 0,
+            snackId: 0
+          }]
+        }).then(function(){
+          //redirect to meals selection
+          window.location.href= "mealsselection.html";
+        });
       });
-      // store the new selection
-      connection.insert({
-        into: 'Selection',
-        values: [{
-          dietId: dietId,
-          breakfastId: 0,
-          lunchId: 0,
-          dinnerId: 0,
-          snackId: 0
-        }]
-      });
-      // TODO: redirect to meals selection
-      window.location.href= "mealsselection.html"
       return false;
     });
 

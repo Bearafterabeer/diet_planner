@@ -103,6 +103,14 @@ function renderDietInfo(diet) {
     diet
   );
   $('#dietInfo').html(rendered);
+
+  //add images to each meal type
+  for (var i = 0; i < types.length; i++) {
+    var type = types[i];
+    var id = type + 'Image';
+    var image = diet[type+'image'];
+    document.getElementById(id).style.backgroundImage = 'url('+image+')';
+  }
 }
 
 //called when document is ready

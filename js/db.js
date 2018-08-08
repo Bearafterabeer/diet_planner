@@ -44,6 +44,18 @@ var dietsTable = {
   }, {
     name: "image",
     dataType: JsStore.DATA_TYPE.String
+  }, {
+    name: "breakfastimage",
+    dataType: JsStore.DATA_TYPE.String
+  }, {
+    name: "lunchimage",
+    dataType: JsStore.DATA_TYPE.String
+  }, {
+    name: "dinnerimage",
+    dataType: JsStore.DATA_TYPE.String
+  }, {
+    name: "snackimage",
+    dataType: JsStore.DATA_TYPE.String
   }]
 };
 
